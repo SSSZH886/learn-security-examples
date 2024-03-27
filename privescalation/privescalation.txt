@@ -1,0 +1,11 @@
+Briefly explain the vulnerability and why the secure version prevents the
+vulnerability.
+SQL Injection vulnerabilities allow attackers to execute unauthorized SQL commands by manipulating user inputs. Secure versions use prepared statements and parameterized queries, which separate SQL logic from data. This approach prevents attackers from injecting harmful SQL, safeguarding the database against unauthorized access or modifications, thus maintaining data integrity and security.
+• What additional security mechanisms can you incorporate to prevent such
+attacks?
+To prevent SQL Injection attacks, implement input validation to reject suspicious data, use least privilege access controls to minimize potential damage, deploy Web Application Firewalls (WAFs) to block malicious traffic, conduct regular security audits to identify vulnerabilities, encrypt sensitive data to protect it even if accessed, and provide secure error handling to avoid leaking information.
+
+
+
+
+

@@ -1,3 +1,9 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 Which CIA property does tampering violate?
 What additional security mechanisms can you incorporate?
+
+SQL Injection vulnerabilities allow attackers to manipulate SQL queries 
+through unsanitized input, compromising data integrity. Secure versions use 
+prepared statements to prevent this, upholding data integrity, a core aspect of
+the CIA triad. Enhancing security with input validation, least privilege access, 
+WAFs, audits, encryption, and secure error handling can further mitigate risks.

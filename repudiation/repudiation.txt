@@ -1,2 +1,10 @@
 - Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
+Repudiation threats involve denying actions in a system. Insecure systems lack robust tracking, making denials plausible. Secure systems employ comprehensive logging and digital signatures, offering undeniable proof of actions, thereby preventing repudiation by ensuring actions are traceable and attributable to individuals, enhancing accountability and non-repudiation in digital transactions.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+To prevent repudiation attacks, incorporate strong authentication mechanisms, digital signatures for data integrity and non-repudiation, detailed logging and monitoring of user activities, and secure timestamping. Utilizing these mechanisms ensures that every action is verifiable, attributed to a specific user, and irrefutably documented, significantly enhancing accountability and security.
+
+
+
+
+
+
